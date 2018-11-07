@@ -1,0 +1,139 @@
+body {
+    background: #f1f1f1;
+}
+  
+h1 {
+    font-size: 25px;
+}
+  
+  /* Giving our navbar some padding and a background color */
+.navbar {
+    background: white;
+}
+  
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+    display: inline-block;
+    margin-right: 5%;
+    cursor: pointer;
+    align-content: right;
+
+}
+  
+  /* Getting rid of the default link styles here */
+.navbar li a {
+    color: #000;
+    text-align: right;
+    background: white;
+    text-align: right;
+
+
+}
+  
+  /* Styling the header, giving it a height, a background color, and some top padding */
+.navbar li header {
+    height: 50px;
+    background: teal;
+    text-align: left;
+    margin-top: 0%;
+}
+  
+  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+.box {
+    color:rgb(73, 71, 71);
+    background-color: white;
+    height: 600px;
+    width: 650px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    border: 5px white;
+    display: inline-block;
+    vertical-align: top;
+
+}
+#narrow{
+    color:teal;
+    background-color: white;
+    display:inline-block;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    margin-top:20px;
+    margin-left: 25px;  
+    margin-bottom: 20px;
+    border: 5px white;
+}
+h2 {
+    color: teal;
+    text-align: left;
+    font-size: 25px;
+}
+figcaption {
+    color: teal;
+    text-align: left;
+    font-size: 20px;
+}
+.footnotes{
+    background:teal;
+    padding:5px;
+}
+.footers{
+    background: gray;
+}
+footer{
+    color: white; 
+    text-align: center; 
+    padding: 20px;  
+}
+.box1 {
+    color:rgb(73, 71, 71);
+    background-color: white;
+    height: 1000px;
+    width: 1000px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    border: 5px white;
+    display: inline-block;
+    vertical-align: top;
+}
+.dataframe {
+    color:rgb(73, 71, 71);
+    background-color: white;
+    height: 12800px;
+    width: 1000px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    border: 5px white;
+    vertical-align: top;
+}
+.headers {
+
+    margin-left: 50px;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.box2 {
+    color:rgb(73, 71, 71);
+    background-color: white;
+    height: 500px;
+    width: 600px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 5px white;
+    display: inline-block;
+    vertical-align: top; 
+}
